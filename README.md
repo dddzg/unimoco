@@ -50,13 +50,13 @@ This script uses all the default hyper-parameters as described in the [MoCo v2](
 ### Results
 
 
-Linear classification and COCO detection 1x schedule (R50-C4) fine-tuning results:
+ImageNet Linear classification and COCO detection 1x schedule (R50-C4) results:
 <table><tbody>
 <th valign="bottom">model</th>
 <th valign="bottom">ratios</th>
 <th valign="bottom">top-1 acc.</th>
 <th valign="bottom">top-5 acc.</th>
-<th valign="bottom">AP</th>
+<th valign="bottom">COCO AP</th>
 <tr><td align="left">UniMoCo</td>
 <td align="center">0%</td>
 <td align="center">71.1</td>
