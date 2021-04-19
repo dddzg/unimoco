@@ -87,6 +87,12 @@ ImageNet Linear classification and COCO detection 1x schedule (R50-C4) results:
 <td align="center"><b>93.1</b></td>
 <td align="center">39.6</td>
 </tr>
+<tr><td align="left">CE</td>
+<td align="center">100%</td>
+<td align="center"><b>76.5</b></td>
+<td align="center"><b>93.1</b></td>
+<td align="center">38.2</td>
+</tr>
 </tbody></table>
 
 Check more details about linear classification and detection fine-tuning on [MoCo](https://github.com/facebookresearch/moco).
