@@ -268,6 +268,7 @@ def main_worker(gpu, ngpus_per_node, args):
                 samples.append((path,target))
             else:
                 samples.append((path,-1))
+        train_dataset.samples = samples
         assert len(supervised_set) == len([label for _,label in samples if label!=-1])
         print(f'Training with {len(supervised_set)} supervised images and {len(samples)-len(supervised_set)} unsupervised images.')
     else:
